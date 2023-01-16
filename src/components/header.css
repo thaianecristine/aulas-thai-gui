@@ -1,0 +1,34 @@
+#header {
+  height: 60px;
+}
+
+.header__container {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__branding {
+  max-width: 37px;
+  height: auto;
+}
+
+.header__hamburger {
+  width: 28px;
+  height: 23px;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.header__hamburger span {
+  width: 100%;
+  display: block; /* explicar conceito de elementos blocos e linha */
+  height: 3px;
+  background: #fff;
+  border-radius: 10px;
+}
