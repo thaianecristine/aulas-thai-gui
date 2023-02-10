@@ -27,7 +27,7 @@
 
 .header__hamburger span {
   width: 100%;
-  display: block; /* explicar conceito de elementos blocos e linha */
+  display: block;
   height: 3px;
   background: #fff;
   border-radius: 10px;
