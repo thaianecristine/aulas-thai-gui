@@ -1,0 +1,51 @@
+#feature {
+  background: url('../../static/fireblade.png') center bottom no-repeat;
+  background-size: contain;
+  padding-top: 48px;
+  height: 280px;
+}
+
+.feature__description {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+.feature__description p {
+  line-height: 120%;
+}
+
+.feature__description p > span {
+  display: block;
+}
+
+.feature__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  #feature {
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .feature__title {
+    font-size: 74px;
+  }
+
+  .feature__description {
+    margin-top: -100px;
+  }
+
+  .feature__description p {
+    font-size: 20px;
+  }
+}
